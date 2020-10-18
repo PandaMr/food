@@ -1,0 +1,145 @@
+/*index.css*/
+body,ul,li,p,div,a{
+		padding:0;
+		margin: 0;
+	}
+	body{font-family: Arial, "微软雅黑";font-size: 14px;}
+	a{color: #fff;text-decoration: none;}
+	ul,li{list-style: none;}
+	.nav{
+		width: 100%;
+		height:62px;
+		line-height: 62px;
+		position: fixed;
+		border-bottom: 1px #ccc solid;
+		z-index: 100;
+		
+	}
+	.nav a{
+		display: inline-block;
+		margin-left: 60px;
+	}
+	.nav a img{
+		
+		height: 60px;
+	}
+	.nav ul{
+		float: right;
+		margin-right:100px;
+	}
+	.nav ul li{
+		float: left;
+		margin-right: 20px;
+	}
+	
+/*content   #F7F7F7*/
+	.content{
+		width:100%;
+		background: #212121;
+		height: 600px;
+		position: relative;
+		top:-5px;
+	}
+
+	.content .content_box{
+		width: 90%;
+		margin:0 auto;
+		padding-left: 60px;
+	}
+	.content .content_box .heading{
+		
+		padding-top: 30px; 
+		padding-bottom: 30px; 
+		color: #fff;
+	}
+	.content .content_box li{
+		float: left;
+		margin: 20px 0.5% ;
+		width:24%;
+		color: #fff;
+		}
+	.content .content_box .apartment1_text h3{
+		font-weight:normal;
+	}
+	.content .content_box .apartment1_text p{
+		color: #666;
+	}
+
+
+/*关于熊猫短租*/
+	.content .bgxmdz{
+		width: 100%;
+		height:600px;
+		background:url(../images/service_bg.jpg) no-repeat;
+		position: absolute;
+		top: 100%;
+		left: 0px;
+	}
+
+  
+	.content .service_box li{
+		float: left;
+		margin: 20px 0.5% ;
+		width:32%;
+		color: #fff;
+		}
+
+	.content .service_box .apartment1_text h3{
+		font-weight:normal;
+		text-align: center;
+		color: #fff;
+		font-size: 18px;
+	}
+	.content .service_box .apartment1_text p{
+		color: #999;
+		text-align: center;
+	}
+	.content .us{
+		width:100%;
+		position: absolute;
+		top: 600px;
+		height: 700px;
+		overflow: hidden;
+		
+	}
+	.content .us .left{
+		width:50%;
+		float: left;
+		
+
+
+	}
+	.content .us .right{
+		width:50%;
+		background: #212121;
+		float: left;
+		height: 100%;
+	}
+	.content .us .right .heading{
+		width:100%;
+		position: absolute;
+		top:20%;
+		left:60%;
+		color:#fff;
+   
+		
+	}
+	.content .us .right .heading p{
+		line-height: 30px;
+	}
+	/*底部版权*/
+	footer{
+		width:100%;
+		height:62px;
+		line-height: 62px;
+		color: #FFF;	
+		font-size: 12px;
+		text-align: right;
+		border-top: 1px #333 solid ;
+		border-top: 1px #333 solid ;
+		position: fixed;
+		bottom: 0px;
+
+	}
+
+

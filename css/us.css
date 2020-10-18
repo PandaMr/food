@@ -1,0 +1,114 @@
+*{padding:0;margin: 0;list-style: none;font-family: "微软雅黑"；}	
+	ul,li{ list-style:none;}
+	a{color: #fff;text-decoration: none;}
+	p{color:#444;}
+	body{font-family: Arial, "微软雅黑";font-size: 14px;}
+	.nav{
+		width: 100%;
+		height:62px;
+		line-height: 62px;
+		position: fixed;
+		border-bottom: 1px #ccc solid;
+		z-index: 100;
+		
+	}
+	.nav a{
+		display: inline-block;
+		margin-left: 60px;
+	}
+	.nav a img{
+		height: 60px;
+	}
+	.nav ul{
+		float: right;
+		margin-right:100px;
+	}
+	.nav ul li{
+		float: left;
+		margin-right: 20px;
+	}
+	
+	.content{
+		width:100%;
+		background: #212121;
+		height: 1624px;
+		position: relative;
+		top:-5px;
+		
+	}
+
+	.content .box{
+		width:80%;
+		margin: 0 auto;
+	}
+
+	
+	.content .text .text_heading{
+		font-size: 36px;
+		font-weight: blod;
+		color: #fff;
+		padding-top:80px;
+	}
+	
+	.content .text p{
+		font-size: 14px;
+		color: #656565;
+		
+		line-height: 26px;
+		text-align: center;
+		padding-bottom: 30px;
+	}
+	
+
+	.content .big_img{
+		width:80%;
+		margin: 0 auto;
+		text-align: center;
+		padding-top: 60px;
+		border-bottom: 1px #444 solid ;
+	}
+
+	.content .text h2{
+		padding-top: 30px;
+		padding-bottom: 30px;
+		border-top: 1px #ccc solid;
+		text-align:center;
+	}
+
+/*infor*/
+	.content .infor{	
+		width:80%;
+		margin: 0 auto;
+	}
+	
+	.content .infor li{
+		width:30%;
+		float: left;
+		padding: 1.5%;
+		
+	}
+	
+	
+	
+	.content .infor .infor_text p{
+		font-size: 14px;
+		padding-bottom: 30px;
+		color: #fff;
+		line-height: 26px; 
+	}
+	
+	
+	
+		footer{
+		width:100%;
+		height:62px;
+		line-height: 62px;
+		color: #FFF;	
+		font-size: 12px;
+		text-align: right;
+		border-top: 1px #333 solid ;
+		border-top: 1px #333 solid ;
+		position: fixed;
+		bottom: 0px;
+
+	}
